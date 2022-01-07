@@ -9,11 +9,11 @@ body{
     grid-template-columns: 80%;
     justify-content: center;
     margin-top: 3rem;
-    background: #828489;
+    background: #ceee3d;
 }
 
 .addItems-container{
-    background: #4d7ea8;
+    background: #66ec4c;
 }
 
 .addItems-container, .displayItems-container{
@@ -21,8 +21,8 @@ body{
     padding: 2rem;
     border-radius: 0.5rem;
     text-align: center;
-    border: 2px solid #272932;
-    box-shadow: 0 5px 10px #272932;
+    border: 2px solid #90a1ec;
+    box-shadow: 0 5px 10px #8494df;
 }
 
 .addItems-title, .displayItems-title{
@@ -30,11 +30,11 @@ body{
 }
 
 .addItems-title{
-    color: #b6c2d9;
+    color: #0b59eb;
 }
 
 .addItems-action, .displayItems-action{
-    border: 2px solid #272932;
+    border: 2px solid #d0eb58;
     padding: 0.5rem 0;
     text-transform: capitalize;
     border-radius: 0.5rem;
@@ -48,7 +48,7 @@ body{
     width: 100%;
     font-size: 2rem;
     padding: 0.5rem;
-    color: #9e90a2;
+    color: #bb46db;
     outline: none;
     text-transform: uppercase;
 }
@@ -65,9 +65,9 @@ body{
 }
 
 .addItems-submit{
-    color: #b6c2d9;
+    color: #739ae2;
     background: transparent;
-    border: 3px solid #b6c2d9;
+    border: 3px solid #5886da;
     transition: all 2s ease;
 }
 
@@ -95,12 +95,10 @@ body{
     margin: 0.5rem 0;
 }
 
-.grocery-item:hover{
-    background: #828489;
-}
+
 
 .grocery-item__title{
-    text-align: left;
+    text-align: right;
     margin-left: 0.5rem;
     font-size: 1.2rem;
     text-transform: capitalize;
